@@ -12,7 +12,7 @@ class StorePicker extends React.Component {
         // first grab text from box
         const storeId = this.storeInput.value;
         // second, transition to / to /store/:storeId
-        this.context.router.transitionTo(`/store/${}`)
+        this.context.router.transitionTo(`/store/${storeId}`)
     }
 
     render() {
