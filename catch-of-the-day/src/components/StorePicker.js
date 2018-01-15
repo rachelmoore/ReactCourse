@@ -5,7 +5,7 @@ class StorePicker extends React.Component {
     goToStore(event) {
         event.preventDefault(); //stop default from happening (refresh the page)
         // first grab text from box
-
+        console.log(this.storeInput);
         // second, transition to / to /store/:storeId
         console.log("you changed the url");
     }
