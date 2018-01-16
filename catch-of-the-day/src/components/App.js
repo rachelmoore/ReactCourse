@@ -12,6 +12,11 @@ class App extends React.Component {
         };
     }
 
+    addFish(fish) {
+        //update our state 
+        //set state
+    }
+
     render() {
         return (
             <div className="catch-of-the-day">
