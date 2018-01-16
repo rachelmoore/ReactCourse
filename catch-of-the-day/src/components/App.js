@@ -6,6 +6,7 @@ import Inventory from './inventory';
 class App extends React.Component {
     constructor() {
         super();
+        this.addFish = this.addFish.bind(this);
         this.state = {
             fishes: {}, 
             order: {}
@@ -29,7 +30,7 @@ class App extends React.Component {
                     <Header tagline="Fresh Seafood Market" /> 
                 </div>
                 <Order /> 
-                <Inventory /> 
+                <Inventory addFish={this.addFish} /> 
             </div>
         )
     }
