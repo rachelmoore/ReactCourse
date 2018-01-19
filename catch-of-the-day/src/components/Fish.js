@@ -10,6 +10,7 @@ class Fish extends React.Component {
                 {details.name}
                 <span className="price">{details.price}</span>
             </h3>
+            <p>{details.desc}</p>
         </li>
         )
     }
