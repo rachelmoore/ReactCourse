@@ -11,6 +11,7 @@ class Fish extends React.Component {
                 <span className="price">{details.price}</span>
             </h3>
             <p>{details.desc}</p>
+            <button>Add To Order</button>
         </li>
         )
     }
