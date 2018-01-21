@@ -14,7 +14,7 @@ class Fish extends React.Component {
                 <span className="price">{formatPrice(details.price)}</span>
             </h3>
             <p>{details.desc}</p>
-            <button>Add To Order</button>
+            <button>{buttonText}</button>
         </li>
         )
     }
