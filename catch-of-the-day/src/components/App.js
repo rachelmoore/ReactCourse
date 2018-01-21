@@ -32,6 +32,13 @@ class App extends React.Component {
         });
     }
 
+    addToOrder(key) {
+        // take a copy of our state 
+        const order = {...this.state.order}
+        // update or add the new number of fish ordered 
+        order[key] = order[key] + 1 || 1;
+    }
+
     render() {
         return (
             <div className="catch-of-the-day">
