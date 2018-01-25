@@ -14,6 +14,7 @@ class Order extends React.Component {
       }, 0);
         return (
             <h2>Your Order</h2>
+            <p>{orderIds}</p>
         )
     }
 }
