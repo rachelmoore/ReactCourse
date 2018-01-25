@@ -6,6 +6,7 @@ class Order extends React.Component {
       const total = orderIds.reduce((prevTotal, key) => {
         const fish = this.props.fish[key];
         const count = this.props.order[key];
+        const isAvailable = fish && fish.status === 'available';
       })
         return (
             <h2>Your Order</h2>
