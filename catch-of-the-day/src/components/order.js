@@ -11,7 +11,7 @@ class Order extends React.Component {
           return prevTotal + (count * fish.price || 0)
         }
         return prevTotal;
-      });
+      }, 0);
         return (
             <h2>Your Order</h2>
         )
