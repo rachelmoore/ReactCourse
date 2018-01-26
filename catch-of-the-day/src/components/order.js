@@ -7,7 +7,7 @@ class Order extends React.Component {
         const count = this.props.order[key];
         
         if (!fish || fish.status === 'unavailable') {
-          return <li></li>
+          return <li key={key}>Sorry, Fish is no longer available!</li>
         }
     }
     
