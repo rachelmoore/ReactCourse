@@ -13,9 +13,11 @@ class Order extends React.Component {
         return prevTotal;
       }, 0);
         return (
+          <div>
             <h2>Your Order</h2>
             <p>{orderIds}</p>
             {total}
+          </div>
         )
     }
 }
