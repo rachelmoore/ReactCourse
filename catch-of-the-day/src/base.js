@@ -5,3 +5,5 @@ const base = Rebase.createClass({
   authDomain: "cotd-e85b0.firebaseapp.com",
   databaseURL: "https://cotd-e85b0.firebaseio.com",
 });
+
+export default base;
