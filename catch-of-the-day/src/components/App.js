@@ -4,6 +4,7 @@ import Order from './order';
 import Inventory from './inventory';
 import Fish from './Fish';
 import sampleFishes from '../sample-fishes';
+import base from '../base';
 
 class App extends React.Component {
     constructor() {
