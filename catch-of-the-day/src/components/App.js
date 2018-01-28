@@ -17,6 +17,10 @@ class App extends React.Component {
             order: {}
         };
     }
+    
+    componentWillMount() {
+      
+    }
 
     addFish(fish) {
         //update our state 
