@@ -19,7 +19,11 @@ class App extends React.Component {
     }
     
     componentWillMount() {
-      this.ref = base.synState(`${this.props.params.storeId}/fishes`)
+      this.ref = base.synState(`${this.props.params.storeId}/fishes`, 
+      , {
+        context: this, 
+        state: 'fishes'
+      });
     }
 
     addFish(fish) {
