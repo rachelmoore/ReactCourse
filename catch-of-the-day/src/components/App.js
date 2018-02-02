@@ -22,7 +22,7 @@ class App extends React.Component {
       this.ref = base.synState(`${this.props.params.storeId}/fishes`,
        {
         context: this,
-        state: 'fishes'
+        state: 'fishes''
       });
     }
 
