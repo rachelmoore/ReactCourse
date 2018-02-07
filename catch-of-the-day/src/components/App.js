@@ -26,9 +26,9 @@ class App extends React.Component {
     //   });
     // }
     //
-    // componentWillUnmount() {
-    //   base.removeBinding(this.ref);
-    // }
+    componentWillUnmount() {
+      base.removeBinding(this.ref);
+    }
 
     addFish(fish) {
         //update our state
