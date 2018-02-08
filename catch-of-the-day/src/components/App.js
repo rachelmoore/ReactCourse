@@ -30,7 +30,10 @@ class App extends React.Component {
       const localStorageRef = localStorage.getItem(`order-${this.props.params.storeId}`);
 
       if (localStorageRef) {
-        // update our App
+        // update our App component's order state
+        this.setState({
+          order: JSON.parse(localStorageRef)
+        })
       }
     }
 
