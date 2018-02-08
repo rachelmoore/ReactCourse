@@ -9,7 +9,7 @@ class Inventory extends React.Component {
           <input type="text" name="name" value={fish.name} placeholder="Fish Name" />
           <input type="text" name="price" value={fish.price} placeholder="Fish Price" />
 
-          <select type="text" name="status" placeholder="Fish Status">
+          <select type="text" name="status" value={fish.status} placeholder="Fish Status">
             <option value="available">Fresh!</option>
             <option value="unavailable">Sold Out!</option>
           </select>
