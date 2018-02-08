@@ -5,6 +5,11 @@ class Inventory extends React.Component {
     constructor() {
       super();
       this.renderInventory = this.renderInventory.bind(this);
+      this
+    }
+
+    handleChange() {
+      const fish = this.props.fishes[key];
     }
 
     renderInventory(key) {
