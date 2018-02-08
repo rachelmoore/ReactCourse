@@ -16,7 +16,7 @@ class Inventory extends React.Component {
 
           <textarea type="text" name="desc" value={fish.desc} placeholder="Fish Description">
           </textarea>
-          <input type="text" name="image" placeholder="Fish Image" />
+          <input type="text" name="image" value={fish.image} placeholder="Fish Image" />
         </div>
       )
     }
