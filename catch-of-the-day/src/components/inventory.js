@@ -6,6 +6,7 @@ class Inventory extends React.Component {
       return (
         <div className="fish-edit" key={key}>
           <input type="text" name="name" placeholder="Fish Name" />
+          <input type="text" name="price" placeholder="Fish Price" />
         </div>
       )
     }
