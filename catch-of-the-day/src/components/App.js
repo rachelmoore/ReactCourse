@@ -19,11 +19,19 @@ class App extends React.Component {
     }
 
     componentWillMount() {
+      // this runs right before the <App> is rendered
       this.ref = base.syncState(`${this.props.params.storeId}/fishes`,
        {
         context: this,
         state: 'fishes'
       });
+
+      // check if there is any order in localStorage
+      const localStorageRef = localStorage.getItem(`order-${this.props.params.storeId}`);
+
+      if (localStorageRef) {
+        // update our App
+      }
     }
 
     componentWillUnmount() {
