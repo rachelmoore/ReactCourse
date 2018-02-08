@@ -3,6 +3,7 @@ import AddFishForm from './AddFishForm';
 
 class Inventory extends React.Component {
     renderInventory(key) {
+      const fish = this.props.fishes[key];
       return (
         <div className="fish-edit" key={key}>
           <input type="text" name="name" placeholder="Fish Name" />
@@ -15,7 +16,7 @@ class Inventory extends React.Component {
 
           <textarea type="text" name="desc" placeholder="Fish Description">
           </textarea>
-          <input type="text" name="image" placeholder="Fish Image" /> 
+          <input type="text" name="image" placeholder="Fish Image" />
         </div>
       )
     }
