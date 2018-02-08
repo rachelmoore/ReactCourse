@@ -18,10 +18,6 @@ class App extends React.Component {
         };
     }
 
-    // componentWillMount() {
-    //   this.ref = base.synState()
-    // }
-
     componentWillMount() {
       this.ref = base.syncState(`${this.props.params.storeId}/fishes`,
        {
@@ -32,6 +28,10 @@ class App extends React.Component {
 
     componentWillUnmount() {
       base.removeBinding(this.ref);
+    }
+
+    componentWillUpdate() {
+      
     }
 
     addFish(fish) {
