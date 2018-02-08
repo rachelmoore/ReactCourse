@@ -19,13 +19,17 @@ class App extends React.Component {
     }
 
     // componentWillMount() {
-    //   this.ref = base.synState(`${this.props.params.storeId}/fishes`,
-    //    {
-    //     context: this,
-    //     state: 'fishes'
-    //   });
+    //   this.ref = base.synState()
     // }
-    //
+
+    componentWillMount() {
+      this.ref = base.syncState(`${this.props.params.storeId}/fishes`,
+       {
+        context: this,
+        state: 'fishes'
+      });
+    }
+
     componentWillUnmount() {
       base.removeBinding(this.ref);
     }
