@@ -4,7 +4,7 @@ import AddFishForm from './AddFishForm';
 class Inventory extends React.Component {
     renderInventory(key) {
       return (
-        <div className="fish-edit"></div>
+        <div className="fish-edit" key={key}></div>
       )
     }
     render() {
