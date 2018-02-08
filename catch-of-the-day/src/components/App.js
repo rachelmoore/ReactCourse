@@ -30,8 +30,8 @@ class App extends React.Component {
       base.removeBinding(this.ref);
     }
 
-    componentWillUpdate() {
-      
+    componentWillUpdate(nextProps, nextState) {
+
     }
 
     addFish(fish) {
