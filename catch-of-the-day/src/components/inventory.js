@@ -14,7 +14,7 @@ class Inventory extends React.Component {
             <option value="unavailable">Sold Out!</option>
           </select>
 
-          <textarea type="text" name="desc" placeholder="Fish Description">
+          <textarea type="text" name="desc" value={fish.desc} placeholder="Fish Description">
           </textarea>
           <input type="text" name="image" placeholder="Fish Image" />
         </div>
