@@ -30,7 +30,8 @@ class Inventory extends React.Component {
             <option value="unavailable">Sold Out!</option>
           </select>
 
-          <textarea type="text" name="desc" value={fish.desc} placeholder="Fish Description">
+          <textarea type="text" name="desc" value={fish.desc} placeholder="Fish Description"
+          onChange={(e) => this.handleChange(e, key)} >
           </textarea>
           <input type="text" name="image" value={fish.image} placeholder="Fish Image" />
         </div>
