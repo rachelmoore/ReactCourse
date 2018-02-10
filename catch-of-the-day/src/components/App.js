@@ -62,6 +62,10 @@ class App extends React.Component {
       this.setState({ fishes })
     }
 
+    removeFish() {
+      
+    }
+
     loadSamples() {
         this.setState({
             fishes: sampleFishes
