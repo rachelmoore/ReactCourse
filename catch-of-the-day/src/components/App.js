@@ -55,6 +55,10 @@ class App extends React.Component {
         this.setState({ fishes: fishes})
     }
 
+    updateFish(key, fish) {
+
+    }
+
     loadSamples() {
         this.setState({
             fishes: sampleFishes
