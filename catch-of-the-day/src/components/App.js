@@ -57,7 +57,7 @@ class App extends React.Component {
 
     updateFish(key, fish) {
       const fishes = {...this.state.fishes};
-      
+      fishes[key] = fish;
     }
 
     loadSamples() {
