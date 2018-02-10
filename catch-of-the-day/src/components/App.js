@@ -56,7 +56,7 @@ class App extends React.Component {
         this.setState({ fishes: fishes})
     }
 
-    updateFish(key, fish) {
+    updateFish(key, updatedFish) {
       const fishes = {...this.state.fishes};
       fishes[key] = updatedFish;
       this.setState({ fishes })
