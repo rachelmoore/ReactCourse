@@ -86,7 +86,7 @@ class App extends React.Component {
     }
 
     removeFromOrder(key) {
-      r
+      
     }
 
     render() {
