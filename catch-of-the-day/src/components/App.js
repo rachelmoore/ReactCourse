@@ -63,7 +63,7 @@ class App extends React.Component {
     }
 
     removeFish(key) {
-      fish = [fish];
+      const fishes =
     }
 
     loadSamples() {
