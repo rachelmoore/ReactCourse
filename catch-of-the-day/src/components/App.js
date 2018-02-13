@@ -64,7 +64,8 @@ class App extends React.Component {
     }
 
     removeFish(key) {
-      const fishes =
+      const fishes = {...this.state.fishes};
+      
     }
 
     loadSamples() {
