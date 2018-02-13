@@ -62,7 +62,7 @@ class App extends React.Component {
       this.setState({ fishes })
     }
 
-    removeFish() {
+    removeFish(key) {
       fish = [fish];
     }
 
