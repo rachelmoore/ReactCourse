@@ -14,6 +14,7 @@ class App extends React.Component {
         this.updateFish = this.updateFish.bind(this);
         this.loadSamples = this.loadSamples.bind(this);
         this.addToOrder = this.addToOrder.bind(this);
+        this.removeFromOrder = this.removeFromOrder.bind(this);
         this.state = {
             fishes: {},
             order: {}
@@ -82,6 +83,10 @@ class App extends React.Component {
         order[key] = order[key] + 1 || 1;
         // update our state
         this.setState({ order: order });
+    }
+
+    removeFromOrder(key) {
+      
     }
 
     render() {
