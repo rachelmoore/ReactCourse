@@ -86,7 +86,9 @@ class App extends React.Component {
     }
 
     removeFromOrder(key) {
-      const order = {...this.state.order}
+      const order = {...this.state.order};
+      order[key] = null;
+      this.setState
     }
 
     render() {
