@@ -10,6 +10,7 @@ class App extends React.Component {
     constructor() {
         super();
         this.addFish = this.addFish.bind(this);
+        this.removeFish = this.removeFish.bind(this);
         this.updateFish = this.updateFish.bind(this);
         this.loadSamples = this.loadSamples.bind(this);
         this.addToOrder = this.addToOrder.bind(this);
