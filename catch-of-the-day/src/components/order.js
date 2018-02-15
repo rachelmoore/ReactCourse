@@ -48,7 +48,7 @@ class Order extends React.Component {
                 <strong>Total:</strong>
                 {formatPrice(total)}
               </li>
-            </CSSTransitionGrou>
+            </CSSTransitionGroup>
           </div>
         )
     }
