@@ -1,6 +1,8 @@
 .order-enter {
   background: #f00;
   transition: all 0.5s;
+  -webkit-transform: translateX(-120%);
+          transform: translateX(-120%);
 }
 .order-enter.order-enter-active {
   background: #ff0;
