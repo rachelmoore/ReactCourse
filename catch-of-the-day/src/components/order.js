@@ -42,7 +42,7 @@ class Order extends React.Component {
           <div className="order-wrap">
             <h2>Your Order</h2>
 
-            <CSSTransitionGroup className="order">
+            <CSSTransitionGroup className="order" component="ul">
               {orderIds.map(this.renderOrder)}
               <li className="total">
                 <strong>Total:</strong>
