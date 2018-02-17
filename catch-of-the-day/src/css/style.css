@@ -1,5 +1,6 @@
 .order-enter {
   background: #f00;
+  transition: all 0.5s;
 }
 .order-enter.order-enter-active {
   background: #ff0;
