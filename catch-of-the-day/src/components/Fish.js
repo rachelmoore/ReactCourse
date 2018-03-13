@@ -20,4 +20,4 @@ class Fish extends React.Component {
     }
 }
 
-export default Fis;
+export default Fish;
